@@ -1,0 +1,11 @@
+<!--pages/DetailedList/DetailedList.wxml-->
+<text>对该比赛感兴趣的同学(按诚信值从高到低排列)</text>
+
+<view class="container">
+  <block wx:for="{{people}}" wx:key="index">
+    <navigator url="../UserConsole/UserConsole">
+      <view class='text-content'>{{item}}</view>
+    </navigator>
+  </block>
+</view>
+

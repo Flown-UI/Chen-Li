@@ -1,0 +1,44 @@
+<view class="view_contain">
+ 
+  <view class="view_1">
+    <view class="view_image_text">
+      <image class="image_radius" src="/images/portrait.png" />
+      <text>张三</text>
+      <text>诚信值：100</text>
+    </view>
+  </view>
+
+ 
+  <view class="view_3">
+    <view class="list-item">
+      <image class="item-image" src="/images/进行.png"></image>
+      <text class="item-text">正在进行</text>
+      <image class="image-jiantou" src="/images/jiantou.png"></image>
+    </view>
+    <view class="line"></view>
+    <view class="list-item">
+      <image class="item-image" src="/images/标签.png"></image>
+      <text class="item-text">经历</text>
+      <image class="image-jiantou" src="/images/jiantou.png"></image>
+    </view>
+    <view class="line"></view>
+    <view class="list-item">
+      <image class="item-image" src="/images/技能.png"></image>
+      <text class="item-text">技能</text>
+      <image class="image-jiantou" src="/images/jiantou.png"></image>
+    </view>
+    <view class="line"></view>
+    <view class="list-item">
+      <image class="item-image" src="/images/消息.png"></image>
+      <text class="item-text">邮箱</text>
+      <image class="image-jiantou" src="/images/jiantou.png"></image>
+    </view>
+    <view class="line"></view>
+    <view class="list-item">
+      <image class="item-image" src="/images/通知.png"></image>
+      <text class="item-text">评价</text>
+      <image class="image-jiantou" src="/images/jiantou.png"></image>
+    </view>
+    <view class="line"></view>
+  </view>
+</view>

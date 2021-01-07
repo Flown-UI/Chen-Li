@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/Login/Login",
+    "pages/Contact/Contact",
+    "pages/DetailedList/DetailedList",
+    "pages/register/register",
+    "pages/UserConsole/UserConsole",
+    "pages/index/index",
+    "pages/info/info",
+    "pages/list/list",
+    "pages/template/template",
+    "pages/detailedinfo/detailedinfo"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "布谷",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

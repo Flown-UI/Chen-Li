@@ -1,0 +1,20 @@
+<!--miniprogram/pages/index/index.wxml-->
+<view class='container1'>
+    <view class="inputView" >
+      <input placeholder="美赛" auto-focus='true' class='input'/>
+    </view>
+    <view class="imageView">
+      <image src='/images/搜索.png' class='image'></image>
+    </view>
+</view>
+
+<view class="container">
+  <block wx:for="{{competition}}" wx:key="index">
+    <navigator url="../DetailedList/DetailedList">
+      <view class="text-content">{{item}}</view>
+    </navigator>
+  </block>
+</view>
+
+
+

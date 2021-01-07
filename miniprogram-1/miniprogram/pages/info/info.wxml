@@ -1,0 +1,29 @@
+<!--miniprogram/pages/info/info.wxml-->
+<view class="container">
+  
+  <text>请完善个人信息</text>
+
+   <view class="inputView"> 
+     <label class="loginLab">学校</label> 
+     <input class="inputText" placeholder="请输入学校" bindinput="phoneInput" /> 
+   </view> 
+   <view class="line"></view> 
+
+
+   <view class="inputView"> 
+     <label class="loginLab">专业</label> 
+     <input class="inputText" placeholder="请输入专业" bindinput="phoneInput" /> 
+   </view> 
+   <view class="line"></view> 
+
+   <view class="inputView"> 
+     <label class="loginLab">技能</label> 
+     <input class="inputText" placeholder="请输入技能" bindinput="phoneInput" /> 
+   </view> 
+   <view class="line"></view> 
+
+   <view class="loginBtnView"> 
+     <button class="loginBtn" type="primary" size="{{primarySize}}" 
+         loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="infoClick">确定</button> 
+   </view>
+</view>

@@ -1,0 +1,18 @@
+<template name="com">
+<block wx:for="{{array}}">
+  <view class="item" bindtap="seeDetail" id="0">
+
+
+  <view class="desc">
+    <view class="title">{{item.title}} </view>
+    <view class="count">
+      <view>{{item.type}}</view>
+      <view class="guanzhu">{{item.guanzhu}}</view>
+      <view class="canyu"> {{item.canyu}}</view>
+    </view>
+  </view>
+</view>
+  <view class="hr2"></view>
+</block>
+</template>
+
